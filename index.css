@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+.logo{
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.nav a{
+    color: #f4f4f4;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav a:hover{
+    color: darkkhaki;
+}
